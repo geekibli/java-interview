@@ -60,23 +60,17 @@ Elasticsearch其实不完全算一个数据库，更多的是使用它的海量�
 
 ### 特别推荐
 
-- [CS-Notes: Github](https://github.com/CyC2018/CS-Notes) 
+```
+下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的题目，去检验一遍自己的成果。多尝试几次，相信对付面试应该问题不大！
+```
 
-- [JavaGuide: Github](https://github.com/Snailclimb/JavaGuide) 
+| 序号| 链接 | 备注 | 
+| ---- | ---- | ---- | 
+| 1 | [CS-Notes: Github](https://github.com/CyC2018/CS-Notes) |  |
+| 2 | [JavaGuide: Github](https://github.com/Snailclimb/JavaGuide) | |
+|3 | [tobetopjavaer Github](http://hollischuang.gitee.io/tobetopjavaer/#/) | |
+|4 |  [advanced-java Github](https://github.com/doocs/advanced-java)  | **强烈推荐** 👍 |
 
-- [tobetopjavaer Github](http://hollischuang.gitee.io/tobetopjavaer/#/)
-
-- [advanced-java Github](https://github.com/doocs/advanced-java)   **强烈推荐** 👍
-
-
-### 特别推荐
-
-｜ 序号｜ 链接 ｜ 备注 ｜ 
-｜ ---- ｜ ---- ｜ ---- ｜ 
-｜ 1 ｜ [CS-Notes: Github](https://github.com/CyC2018/CS-Notes) ｜  ｜
-｜ 2 ｜ [JavaGuide: Github](https://github.com/Snailclimb/JavaGuide) ｜ ｜
-｜3 ｜ [tobetopjavaer Github](http://hollischuang.gitee.io/tobetopjavaer/#/) ｜ ｜
-｜4 ｜  [advanced-java Github](https://github.com/doocs/advanced-java)  ｜ **强烈推荐** 👍 ｜
 
 
 
