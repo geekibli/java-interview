@@ -69,6 +69,15 @@ Elasticsearch其实不完全算一个数据库，更多的是使用它的海量�
 - [advanced-java Github](https://github.com/doocs/advanced-java)   **强烈推荐** 👍
 
 
+### 特别推荐
+
+｜ 序号｜ 链接 ｜ 备注 ｜ 
+｜ ---- ｜ ---- ｜ ---- ｜ 
+｜ 1 ｜ [CS-Notes: Github](https://github.com/CyC2018/CS-Notes) ｜  ｜
+｜ 2 ｜ [JavaGuide: Github](https://github.com/Snailclimb/JavaGuide) ｜ ｜
+｜3 ｜ [tobetopjavaer Github](http://hollischuang.gitee.io/tobetopjavaer/#/) ｜ ｜
+｜4 ｜  [advanced-java Github](https://github.com/doocs/advanced-java)  ｜ **强烈推荐** 👍 ｜
+
 
 
 
