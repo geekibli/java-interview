@@ -16,12 +16,16 @@
 11. double(5,3) 5和3的意义分别是什么？ 11.234
 12. char vs varchar
 13. datetime vs timestamp？     8字节 4字节
-14. 什么是水平切分？ 什么是垂直拆分？
-15. mysql主从复制的原理？
+14. [什么是水平切分？ 什么是垂直拆分？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/database-shard.md#你们具体是如何对数据库如何进行垂直拆分或水平拆分的)
+15. [mysql主从复制的原理？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/mysql-read-write-separation.md#mysql-主从复制原理的是啥)
 16. 如何实现读写分离？
-17. 常见分库分表的策略有哪些？
-18. 分库分表分别解决哪些问题？
-19. **数据库三范式**
+17. [如何处理MySQL主从同步延时问题?](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/mysql-read-write-separation.md#mysql-主从同步延时问题精华)
+18. [常见分库分表的策略有哪些？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/database-shard.md#你们具体是如何对数据库如何进行垂直拆分或水平拆分的)
+19. [分库分表分别解决哪些问题？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/redis-rehash.md)
+20. [系统如何动态切换到分库分表上？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/database-shard-method.md)
+21. [如何设计可以动态扩容缩容的分库分表方案？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/database-shard-dynamic-expand.md)
+22. [分库分表场景下如何处理自增id](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/database-shard-global-id-generate.md)
+23. **数据库三范式**
 
 
 ## sql语法

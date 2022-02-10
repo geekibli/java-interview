@@ -14,6 +14,13 @@
 5. 说一下什么是可用性？ 
 6. 可用性一般都有哪些方面？ 一般都如何解决呢？     节点冗余  主从  主备  监控 降级
 7. 如何保障安全性？
+8. [如何设计一个高并发系统？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/high-concurrency-design.md)
+9. [为什么要进行系统拆分？如何进行系统拆分？拆分后不用 dubbo 可以吗？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/why-dubbo.md)
+10. [如何自己设计一个RPC框架？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/dubbo-rpc-design.md)
+11. [zookeeper实现分布式锁？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#zk-分布式锁)
+12. [**redis如何实现分布式锁？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#redis-分布式锁)
+13. [**zookeeper 都有哪些使用场景？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/zookeeper-application-scenarios.md)
+14. [分布式事务了解吗？ 有哪些解决方案？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-transaction.md)  // TODO
    
 ### 💾 资料
 
