@@ -49,19 +49,22 @@ Elasticsearch其实不完全算一个数据库，更多的是使用它的海量�
 ```
 > **这部分绝对是大厂重点考察的，比如阿里在这方面问的非常多。**
 
-#### 特别推荐
+#### [特别推荐](#)
+
+| 序号| 链接 | 备注 | 
+| ---- | ---- | ---- | 
+| 1 | [CS-Notes: Github](https://github.com/CyC2018/CS-Notes) | 相对其他较基础 |
+| 2 | [JavaGuide: Github](https://github.com/Snailclimb/JavaGuide) | 总结的不错，面试重点比较多|
+|3 | [tobetopjavaer Github](http://hollischuang.gitee.io/tobetopjavaer/#/) | Java的东西比较多，剩余还未更新|
+|4 |  [advanced-java Github](https://github.com/doocs/advanced-java)  | **强烈推荐** 👍 |
+
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
 题目，去检验一遍自己的成果。多尝试几次，相信对付面试应该问题不大！
 ```
 
-| 序号| 链接 | 备注 | 
-| ---- | ---- | ---- | 
-| 1 | [CS-Notes: Github](https://github.com/CyC2018/CS-Notes) |  |
-| 2 | [JavaGuide: Github](https://github.com/Snailclimb/JavaGuide) | |
-|3 | [tobetopjavaer Github](http://hollischuang.gitee.io/tobetopjavaer/#/) | |
-|4 |  [advanced-java Github](https://github.com/doocs/advanced-java)  | **强烈推荐** 👍 |
+
 
 
 
