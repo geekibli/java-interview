@@ -2,7 +2,7 @@
 
 
 
-## 设计基础
+## 系统设计
 
 1. 测评性能的指标都有哪些？ 
    1. 什么叫做响应时间？
@@ -14,18 +14,18 @@
 5. 说一下什么是可用性？ 
 6. 可用性一般都有哪些方面？ 一般都如何解决呢？     节点冗余  主从  主备  监控 降级
 7. 如何保障安全性？
-8. [如何设计一个高并发系统？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/high-concurrency-design.md)
-9. [为什么要进行系统拆分？如何进行系统拆分？拆分后不用 dubbo 可以吗？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/why-dubbo.md)
-10. [如何自己设计一个RPC框架？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/dubbo-rpc-design.md)
-11. [zookeeper实现分布式锁？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#zk-分布式锁)
-12. [**redis如何实现分布式锁？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#redis-分布式锁)
-13. [**zookeeper 都有哪些使用场景？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/zookeeper-application-scenarios.md)
-14. [分布式事务了解吗？ 有哪些解决方案？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-transaction.md)  // TODO
+8. [系统设计面试题：综合考察面试者的大招](https://www.wangtianyi.top/blog/2018/08/31/xi-tong-she-ji-mian-shi-ti-zong-he-kao-cha-mian-shi-zhe-de-da-zhao/?utm_source=github&utm_medium=github)
+9. [如何设计一个高并发系统？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/high-concurrency-design.md)
+10. [为什么要进行系统拆分？如何进行系统拆分？拆分后不用 dubbo 可以吗？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/why-dubbo.md)
+11. [如何自己设计一个RPC框架？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/dubbo-rpc-design.md)
+12. [**zookeeper 都有哪些使用场景？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/zookeeper-application-scenarios.md)
+13. [分布式事务了解吗？ 有哪些解决方案？]()  // TODO
+14. [设计一个高并发发红包系统？](https://github.com/xbox1994/Java-Interview/blob/master/MD/系统设计-高并发抢红包.md)
+15. [设计一个秒杀系统？](https://github.com/qiurunze123/miaosha)
    
 ### 💾 资料
 
 - [CS-Notes github 系统设计基础](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80.md)
-
 
 
 
@@ -36,13 +36,13 @@
 3. 分布式锁的常见实现方式都有哪些？
    1. 使用数据库实现分布式锁都有哪些方式呢？
       1. 数据库实现分布式锁的缺点有哪些？
-   2. 讲述一下如何使用redis实现分布式锁？
+   2. [讲述一下如何使用redis实现分布式锁？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#redis-分布式锁)
       1. setnx
       2. redlock
       3. redission
-   3. 如何使用zookeeper实现分布式锁？ 原理是什么？
-4. 什么是分布式事务？ 什么场景下会使用到分布式事务？
-5. 分布式事务都有哪些实现方式呢？
+   3.[如何使用zookeeper实现分布式锁？ 原理是什么？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#zk-分布式锁)
+4. [什么是分布式事务？ 什么场景下会使用到分布式事务？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-transaction.md)
+5. [分布式事务都有哪些实现方式呢？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-transaction.md)
    1. 讲一下两阶段提交（2PC）?
       1. 两阶段提交的具体流程是怎样的？
       2. 两阶段提交有什么弊端？ 
@@ -62,7 +62,6 @@
 ### 💾 资料
 
 - [CS-Notes github 分布式](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%88%86%E5%B8%83%E5%BC%8F.md)
-- 
 
 
 
