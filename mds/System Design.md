@@ -47,7 +47,7 @@
       1. 两阶段提交的具体流程是怎样的？
       2. 两阶段提交有什么弊端？ 
    2. 本地消息表实现分布式事务的原理？
-6. **讲一下CAP理论，以及各自的含义？**
+6. [**讲一下CAP理论，以及各自的含义？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-system-cap.md)
 7. 为什么CAP只能保证其中的2个？
 8. 什么是BASE理论？ 
 9. 讲一下Paxos算法？
@@ -55,6 +55,8 @@
 11. 分布式缓存
 12. 分布式Session
 13. 分布式任务调度
+14. [分布式服务接口幂等性如何处理？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-system-idempotency.md)
+15. [分布式服务接口请求的顺序性如何保证？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-system-request-sequence.md)
 
 
 ### 💾 资料
