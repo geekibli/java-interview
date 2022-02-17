@@ -43,7 +43,7 @@
 | 4 | https://github.com/doocs/advanced-java  | **强烈推荐** 👍 |
 | 5 | https://github.com/donnemartin/system-design-primer | 系统设计综合 提供中英文文档 非常优秀 👍 |  
 | 6 | https://github.com/AobingJava/JavaFamily | 三太子敖丙 |
-
+| 7 | https://programmercarl.com/ | 代码随想录 这个🀄️ b站的视频讲的特别好👌 |
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
