@@ -1,66 +1,75 @@
 # 1-Java基础
 
 > 基本类型、关键字（final static）、接口和抽象类、反射、注解、泛型
-1. long类型和double类型的线程安全问题：因为目前jvm的原子操作是32位
-2. java 8大基本类型
-3. 为什么需要包装类型 ？ 面向对象 泛型
-4. 什么是装箱 拆箱
-5. new Integer(123) 与 Integer.valueOf(123) 的区别？
-6. Integer 缓冲池范围？ 是否可以修改？ `-XX:AutoBoxCacheMax=<size> `
-7. String 是否可以继承？ final
-8. String在jdk8中的实现和在jdk9中的实现?
-9. String 如何保证不可变？ final  不可变有什么好处？
-10. 什么是String pool?
-11. 如何在运行时将字符串添加到String pool? intern()
-12. String pool 存放在哪里？ 永久代 堆
-13. String是否会导致OOM？ 会 常量池在堆中！
-14. 参数传递是指传递还是引用传递？
-15. 使用 += 或者 ++ 运算符会执行隐式类型转换
-16. switch 不支持哪些类型？ Long float double
-17. switch 击穿现象？
-18. final 用法 字段 方法 类
-19. 什么方法重写和方法重载？
-20. 静态变量和实例变量的区别？ 范围 生命周期
-21. 静态方法是否可以是抽象的？ 不能 结合类加载
-22. 静态初始化块 构造器 子类父类 初始化顺序？
-23. 静态内部类 ： 非静态内部类依赖外部类，需要先创建外部类
-24. 静态内部类不能访问外部类的非静态的变量和方法？ 是的
-25. equals 方法比较的是什么？
-26. 为什么重写equals方法一定要重写hashcode方法？ 保证hashcode一致
-27. toString 方法 打印@后面的是什么？ hashcode的无符号16进制
-28. clone方法的访问控制权限是什么？ protected native
-29. 深拷贝和浅拷贝？
-30. 访问控制符以及权限范围 ： 如果不加访问修饰符，表示包级可见。
-31. 抽象类只能被继承不能实例化？ 是的
-32. 抽象类是否可以继承抽象类？可以
-33. 抽象类是否可以实现接口？可以
-34. 抽象类是否可以继承非抽象类？ 可以
-35. 接口是否可以实现接口？ 不可以
-36. 接口是否可以继承接口？ 可以
-37. 接口可以定义private的变量和方法吗？ 可以
-38. 接口可以由自己的实现吗？ 可以 default
-39. 接口可以继承抽象类？ 普通类？ 都不可以
-40. 接口是否可以定义变量？ 不可以 只能是常量
-41. 反射的优缺点？
-42. 什么是异常？
-43. 什么是错误？
-44. 受查异常和非受查异常？ IOException NullPointException
-45. Java异常机制的意义？ 中断程序
-46. [泛型的10道面试题](https://cloud.tencent.com/developer/article/1033693 )
-47. Java中的泛型是什么 ? 使用泛型的好处是什么?
-48. Java的泛型是如何工作的?
-49. 什么是类型擦除 ? 
-50. 什么是泛型中的限定通配符和非限定通配符?   `extends super      <?>`
-51. `List<? extends T>`和 `List <? super T>`之间有什么区别?
-52. 如何声明泛型和使用泛型？
-53. 你可以把  `List<String>` 传递给一个接受`List<Object>`参数的方法吗？  编译错误
-54. Array中可以用泛型吗? 不支持
-55. [泛型详解](https://www.cnblogs.com/Blue-Keroro/p/8875898.html)
-56. 泛型方法 泛型接口 泛型类 ？
-57. [注解的实现原理](https://www.cnblogs.com/acm-bingzi/p/javaAnnotation.html)
+1. [Java1.5版本后的三大版本](https://blog.csdn.net/qq_28870891/article/details/104477819)
+2. [Oracle JDK 和 OpenJDK 的对比](https://zhuanlan.zhihu.com/p/108675511)
+3. [Java语言有什么特点](http://c.biancheng.net/view/1282.html)
+4. [什么是字节码？采用字节码的最大好处是什么](https://zhuanlan.zhihu.com/p/137021803)
+5. [什么是Java程序的主类？应用程序和小程序的主类有何不同？](https://zhuanlan.zhihu.com/p/137022037)
+6. [long类型和double类型的线程安全问题：因为目前jvm的原子操作是32位](https://www.likecs.com/show-204683271.html)
+7. [java 8大基本类型](https://zhuanlan.zhihu.com/p/39843539)
+8. [为什么需要包装类型 ？ 面向对象 泛型](https://zhuanlan.zhihu.com/p/78590948)
+9. [什么是装箱 拆箱](https://zhuanlan.zhihu.com/p/64004059)
+10. [Math.round(11.5) 等于多少？Math.round(-11.5)等于多少](https://blog.csdn.net/u012110719/article/details/46351713)
+11. [new Integer(123) 与 Integer.valueOf(123) 的区别？](https://blog.csdn.net/guzhong10/article/details/88865831)
+12. [Integer 缓冲池范围？ 是否可以修改？ `-XX:AutoBoxCacheMax=<size> `](https://www.programminghunter.com/article/1567134782/)
+13. [String 是否可以继承？ final](https://www.zhihu.com/question/31345592)
+14. String在jdk8中的实现和在jdk9中的实现?
+15. String 如何保证不可变？ final  不可变有什么好处？
+16. [什么是String pool?](https://www.cnblogs.com/Andya/p/14067618.html)
+17. [如何在运行时将字符串添加到String pool? intern()](https://darrenyjy.github.io/2016/05/28/String%E6%B1%A0%E5%8C%96%E5%8F%8Aintern%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%9C%E7%94%A8/)
+18. String pool 存放在哪里？ 永久代 堆
+19. String是否会导致OOM？ 会 常量池在堆中！
+20. [float f=3.4 是否正确？](https://blog.csdn.net/qq_31279347/article/details/82557825);
+21. 参数传递是指传递还是引用传递？
+22. [使用 += 或者 ++ 运算符会执行隐式类型转换](https://www.cnblogs.com/zhangshuaiyin/p/12038092.html)
+23. [switch 不支持哪些类型？ Long float double](https://blog.csdn.net/weixin_38251977/article/details/110880666)
+24. switch 击穿现象？
+25. final 用法 字段 方法 类
+26. 什么方法重写和方法重载？
+27. 静态变量和实例变量的区别？ 范围 生命周期
+28. 静态方法是否可以是抽象的？ 不能 结合类加载
+29. 静态初始化块 构造器 子类父类 初始化顺序？
+30. 静态内部类 ： 非静态内部类依赖外部类，需要先创建外部类
+31. 静态内部类不能访问外部类的非静态的变量和方法？ 是的
+32. equals 方法比较的是什么？
+33. 为什么重写equals方法一定要重写hashcode方法？ 保证hashcode一致
+34. toString 方法 打印@后面的是什么？ hashcode的无符号16进制
+35. clone方法的访问控制权限是什么？ protected native
+36. 深拷贝和浅拷贝？
+37. 访问控制符以及权限范围 ： 如果不加访问修饰符，表示包级可见。
+38. 抽象类只能被继承不能实例化？ 是的
+39. 抽象类是否可以继承抽象类？可以
+40. 抽象类是否可以实现接口？可以
+41. 抽象类是否可以继承非抽象类？ 可以
+42. 接口是否可以实现接口？ 不可以
+43. 接口是否可以继承接口？ 可以
+44. 接口可以定义private的变量和方法吗？ 可以
+45. 接口可以由自己的实现吗？ 可以 default
+46. 接口可以继承抽象类？ 普通类？ 都不可以
+47. 接口是否可以定义变量？ 不可以 只能是常量
+48. 反射的优缺点？
+49. 什么是异常？
+50. 什么是错误？
+51. 受查异常和非受查异常？ IOException NullPointException
+52. Java异常机制的意义？ 中断程序
+53. [泛型的10道面试题](https://cloud.tencent.com/developer/article/1033693 )
+54. Java中的泛型是什么 ? 使用泛型的好处是什么?
+55. Java的泛型是如何工作的?
+56. 什么是类型擦除 ? 
+57. 什么是泛型中的限定通配符和非限定通配符?   `extends super      <?>`
+58. `List<? extends T>`和 `List <? super T>`之间有什么区别?
+59. 如何声明泛型和使用泛型？
+60. 你可以把  `List<String>` 传递给一个接受`List<Object>`参数的方法吗？  编译错误
+61. Array中可以用泛型吗? 不支持
+62. [泛型详解](https://www.cnblogs.com/Blue-Keroro/p/8875898.html)
+63. 泛型方法 泛型接口 泛型类 ？
+64. [注解的实现原理](https://www.cnblogs.com/acm-bingzi/p/javaAnnotation.html)
+
 
 
 > [以上参考文档链接 🔗](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20%E5%9F%BA%E7%A1%80.md)
+> [Java程序员要达到什么水平才能社招进阿里](https://www.its203.com/article/QLCZ0809/119546435)
 
 
 # 2-Java容器
@@ -219,8 +228,8 @@
 
 # 4-Java虚拟机
 
-1. 讲一下jvm的主要构成？ 运行时数据区 类加载 执行引擎
-2. 讲一下运行时数据区的几个部分？ 主要5种
+1. [讲一下jvm的主要构成？ 运行时数据区 类加载 执行引擎](https://www.jianshu.com/p/70c7755151f7)
+2. [讲一下运行时数据区的几个部分？ 主要5种](https://blog.csdn.net/weixin_45151795/article/details/108458096)
 3. 什么是程序计数器？ 有什么特性？
 4. 什么是java虚拟机栈？
 5. 什么是栈桢？ 一个方法对应一个栈桢
@@ -231,61 +240,74 @@
 10. 堆内部有哪些分区？
 11. 为什么Eden和Servior分区的比例默认为8:1:1
 12. 什么是方法区（元空间） OOM
-13. Full GC 发生在哪些区域？ 堆 方法区
-14. 什么是直接内存？ 堆外内存
-15. 为什么会有垃圾回收？
-16. 垃圾回收都回收哪些东西？
-17. 如何判断对象是垃圾？
-18. 引用计数算法弊端是什么？ 循环引用
-19. 可达性分析是什么？
-20. 什么可以作为GC ROOT?
-21. 类卸载有哪些条件？ 实例 类加载器 引用
-22. 什么是finalize方法？ finalize如何实现自救？
-23. finalize对象自救只能实现一次？ yes
-24. java中 4中对象引用类型？ 以及区别 ？ 强软弱虚 
-25. 常见的垃圾收集算法？
-26. 什么是标记清除算法？ 有哪些缺点？ 效率低 碎片
-27. 标记复制算法是什么？ 有哪些缺点？ 内存利用率低
-28. **标记整理算法是什么？** 有哪些缺点？ 有哪些优势？
-29. 讲一下分代收集算法？
-30. 讲一下常见的垃圾收集器？ 7种
-31. 年轻代的收集器有哪些？
-32. 老年代的垃圾收集器有哪些？
-33. 讲一下G1收集器？
-34. 什么是STW？为什么会有STW？
-35. 讲一下Serial收集器的缺点？ 单线程
-36. 讲一下ParNew收集器？  Serial收集器多线程版本  年轻代 只能和CMS配合
-37. Parallel Scavenge收集器的目标是什么？ 吞吐量
-38. 讲一下CMS收集器的工作机制？
-39. CMS收集器使用的垃圾收集算法？有哪些缺点？
-40. 什么是浮动垃圾？
-41. 什么是Concurrent Mode Failure？
-42. 讲一下G1收集器？ G1 可以直接对新生代和老年代一起回收。
-43. G1收集器的工作流程？
-44. Minor GC 和 Full GC
-45. 对象内存分配策略是怎样的？
-46. 什么时候下会触发Full GC ?
-47. 请讲述什么是类加载机制？ 过程是什么？
-48. 什么是静态链接｜动态链接
-49. bootstarpClassLoader是在哪里实现的？ C++实现的
-50. 类加载器都有哪些？
-51. 如何自定义类加载器？
-52. 什么是双亲委派机制？
-53. 双亲委派机制的优点？
-54. 自定义的 java.lang.String能否被加载？
-55. 为什么加载先是在app加载器而不是bootstrap加载器？
-56. 如何破坏双亲委派机制？
-57. Tomcat打破双亲委派？
-58. Tomcat为什么不使用默认的双亲委派
-59. Tomcat几种加载器分别是什么？ 各自的作用是什么？
-60. 哪些地方会发生OOM异常？
-61. 什么场景下会产生OOM异常？
-62. 哪些地方会发生StackOverFlow异常？
-63. 什么场景下会产生StackOverFlow异常？
-64. 什么是逃逸分析？
-65. 什么是标量替换？
-66. 什么是对象年龄动态判断机制？
-67. 什么是空间担保机制？
+13. [Java 垃圾回收机制（GC）简述](https://blog.csdn.net/liyifan687/article/details/80075189)
+14. [垃圾回收的优点和原理，并考虑2种回收机制](https://blog.csdn.net/will130/article/details/49681103)
+15. Full GC 发生在哪些区域？ 堆 方法区
+16. 什么是直接内存？ 堆外内存
+17. [为什么会有垃圾回收？](https://cloud.tencent.com/developer/article/1198886)
+18. 垃圾回收都回收哪些东西？
+19. [如何判断对象是垃圾？](https://blog.csdn.net/zx1293406/article/details/104535414)
+20. [引用计数算法弊端是什么？ 循环引用](https://blog.csdn.net/qq_42185762/article/details/115667911)
+21. [可达性分析是什么？](https://segmentfault.com/a/1190000021820577)
+22. [垃圾回收器的基本原理是什么？垃圾回收器可以马上回收内存吗？有什么办法主动通知虚拟机进行垃圾回收？](https://www.cnblogs.com/zhangxiaopeng/p/5001171.html)
+23. 什么可以作为GC ROOT?
+24. 类卸载有哪些条件？ 实例 类加载器 引用
+25. 什么是finalize方法？ finalize如何实现自救？
+26. finalize对象自救只能实现一次？ yes
+27. [java中 4中对象引用类型？ 以及区别 ？ 强软弱虚 ](https://www.cnblogs.com/frankcui/p/12492973.html)
+28. [常见的垃圾收集算法？](https://developer.aliyun.com/ask/274518)
+29. [什么是标记清除算法？ 有哪些缺点？ 效率低 碎片](https://www.cnblogs.com/xuwc/p/14054104.html)
+30. 标记复制算法是什么？ 有哪些缺点？ 内存利用率低
+31. **标记整理算法是什么？** 有哪些缺点？ 有哪些优势？
+32. [**什么是三色标记法？**](https://segmentfault.com/a/1190000021820577)
+33. 三色标记进行并发标记的时候，会产生哪些问题？
+34. [**什么场景下会“对象消失”?**](https://segmentfault.com/a/1190000021820577)
+35. [**并发标记如何解决对象消失的问题？**](https://segmentfault.com/a/1190000021820577)
+36. 讲一下分代收集算法？
+37. 讲一下常见的垃圾收集器？ 7种
+38. 年轻代的收集器有哪些？
+39. 老年代的垃圾收集器有哪些？
+40. 讲一下G1收集器？
+41. 什么是STW？为什么会有STW？
+42. 讲一下Serial收集器的缺点？ 单线程
+43. 讲一下ParNew收集器？  Serial收集器多线程版本  年轻代 只能和CMS配合
+44. Parallel Scavenge收集器的目标是什么？ 吞吐量
+45. 讲一下CMS收集器的工作机制？
+46. CMS收集器使用的垃圾收集算法？有哪些缺点？
+47. 什么是浮动垃圾？
+48. 什么是Concurrent Mode Failure？
+49. 讲一下G1收集器？ G1 可以直接对新生代和老年代一起回收。
+50. G1收集器的工作流程？
+51. Minor GC 和 Full GC
+52. 对象内存分配策略是怎样的？
+53. 什么时候下会触发Full GC ?
+54. 请讲述什么是类加载机制？ 过程是什么？
+55. 什么是静态链接｜动态链接
+56. bootstarpClassLoader是在哪里实现的？ C++实现的
+57. 类加载器都有哪些？
+58. 如何自定义类加载器？
+59. 什么是双亲委派机制？
+60. 双亲委派机制的优点？
+61. 自定义的 java.lang.String能否被加载？
+62. 为什么加载先是在app加载器而不是bootstrap加载器？
+63. 如何破坏双亲委派机制？
+64. Tomcat打破双亲委派？
+65. Tomcat为什么不使用默认的双亲委派
+66. Tomcat几种加载器分别是什么？ 各自的作用是什么？
+67. [内存溢出异常](https://blog.csdn.net/clover_lily/article/details/80099849)
+68. 哪些地方会发生OOM异常？
+69. 什么场景下会产生OOM异常？
+70. 哪些地方会发生StackOverFlow异常？
+71. 什么场景下会产生StackOverFlow异常？
+72. 什么是逃逸分析？
+73. 什么是标量替换？
+74. 什么是对象年龄动态判断机制？
+75. 什么是空间担保机制？
+76. [为对象分配内存](https://blog.csdn.net/qq_42605393/article/details/119192213)
+77. [创建对象的线程安全问题](https://blog.csdn.net/qq_38930804/article/details/121592294)
+78. [创建对象的线程安全问题1](https://blog.csdn.net/m0_48333563/article/details/113783060)
+79. [对象的定位访问](https://www.jianshu.com/p/536b6fe077d0)
+80. [java中会存在内存泄漏吗，请简单描述。](https://blog.csdn.net/m0_37204491/article/details/64500151)
 
 
 ## Java虚拟机资料
