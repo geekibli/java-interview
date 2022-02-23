@@ -2,40 +2,38 @@
 
 > **【 特别注意 】： 下面的链接中只是罗列了面试题目，至于参考答案，在每个章节题目下面都有相关的链接🔗， <font color=green>所有的题目都可以在下面的链接中寻找到争取的答案！</font>**
 
+## 1. 题目
 **各个部分或章节的面试题汇总如下：** 
 
-####  [1. Java部分](https://github.com/geekibli/java-interview/blob/main/mds/Java.md)
-> 这部分包括了 「java基础环节」「java容器」「多线程与并发」「Java虚拟机」「java IO」等几个章节的题目汇总；
-#### [2. 数据库部分]()
-##### 👉  [2.1 MySQL](https://github.com/geekibli/java-interview/blob/main/mds/MySQL.md)  
-> MySQL 部分包括了「基础架构」「索引以及优化」「锁机制」「事务」「主从和读写」等几个重点部分；
-##### 👉  [2.2 Redis](https://github.com/geekibli/java-interview/blob/main/mds/Redis.md)
-> Redis 部分包括了 「基本数据结构」「底层数据结构」「一致性」「持久化」「主从」「底层原理」等一系列问题；
-##### 👉 [2.3 Elasticsearch](https://github.com/geekibli/java-interview/blob/main/mds/Elasticsearch.md)
-> Elasticsearch其实不完全算一个数据库，更多的是使用它的海量数据近实时的搜索优势。  
-完全把它当做数据存储来使用不是很合适，姑且暂时放到这里吧。
-#### [3. 操作系统](https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md)
-##### 👉 [3.1 计算机操作系统](https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md)
-> 主要包含了 「基础概念」「内存管理」「进程管理」「设备管理」等；
-##### 👉 [3.2 Linux](https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md)
-> 主要是一些日常开发中可能遇到的问题排查，操作命令等， 比如文件权限，用户管理，进程原理等等；
-#### [4. 计算机网络](https://github.com/geekibli/java-interview/blob/main/mds/Computer%20Network.md)
-> 计算机网络这部分应该算是面试的重点了，这部分的东西也是非常多的。  
-我在总结的时候，是按照5层网络分层的基础架构来划分的，分别是物理层,数据链路层,网络层,传输层,应用层」；  
-包含了TCP/UDP协议,ICMP协议,HTTP/HTTPs协议,Socket,RPC等重点环节。  
-#### [5. 消息队列](https://github.com/geekibli/java-interview/blob/main/mds/Message%20Queue.md)
-> 主要是包括消息队列一些通用的问题，由于工作技术选型问题，这里包括不限于【 kafka 】相关的问题。
-#### [6. 系统设计](https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md)
-- 主要是系统设计过程中一些需要思考或者注意的事项，还有分布式，集群，安全等方面。  
-- 也会有一些真实的系统设计面试题，比如 [**秒杀系统**](https://github.com/qiurunze123/miaosha) 卖票系统？账务系统，社交排行榜？签到等等真实的生产问题。 
-- 还有一些就是[**海量数据**](https://github.com/geekibli/java-interview/blob/main/mds/Mass%20Data.md)的问题就不单独展开，更多的是考察解决问题的思路和方法。
-> **这部分绝对是大厂重点考察的，比如阿里在这方面问的非常多。**
 
-#### [Fin.特别推荐]()
+| 序号 | 章节  | 链接 | 
+| ---- | ---- | ---- | 
+| 1 |  Java基础 | [链接](https://github.com/geekibli/java-interview/blob/main/mds/Java.md) | 
+| 2 |  Java容器 |  [链接]()  |
+| 3 |  Java多线程  | [链接]() |  
+| 4 |  Java虚拟机  |  [链接]() |
+| 5 |  Java IO  |  [链接]() |
+| 6 |  MySQL  |  [链接]() |
+| 7 |  Redis  |  [链接]() |
+| 8 |  Elasticsearch  |  [链接]() |
+| 9 |  Kafka  |  [链接]() |
+| 10 |  Spring  |  [链接]() |
+| 11 |  Tomcat  |  [链接]() |
+| 12 |  分布式  |  [链接]() |
+| 13 |  系统设计  |  [链接]() |
+| 14 |  操作系统&Linux  |  [链接]() |
+| 15 |   HTTP&HTTPS协议 |  [链接]() |
+| 16 |   TCP协议 |  [链接]() |
+| 17 |   UDP协议 |  [链接]() |
+| 17 |   设计模式 |  [链接]() |
+| 18 |   海量数据问题 |  [链接]() |
 
-##### 资料总结类
 
-| 序号| 链接 | 备注 | 
+
+
+## 2. 优秀资料
+
+| 序号| 网站 | 链接 | 
 | ---- | ---- | ---- | 
 | 1 | CS-Notes:相对其他较基础 | [链接](https://github.com/CyC2018/CS-Notes) |
 | 2 | JavaGuide: 总结的不错，面试重点比较多 | [链接](https://github.com/Snailclimb/JavaGuide) |
@@ -43,16 +41,16 @@
 | 4 | **advanced-java强烈推荐** 👍 | [链接](https://github.com/doocs/advanced-java) |
 | 5 | 系统设计综合 提供中英文文档 非常优秀 👍 | [链接](https://github.com/donnemartin/system-design-primer) |  
 | 6 | GitHub:三太子敖丙 | [链接](https://github.com/AobingJava/JavaFamily) |
-| 7 | 代码随想录 这个🀄️ b站的视频讲的特别好👌 | [链接]https://programmercarl.com/() |
+| 7 | 代码随想录 这个🀄️ b站的视频讲的特别好👌 | [链接](https://programmercarl.com/) |
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
 题目，去检验一遍自己的成果。多尝试几次，相信对付面试应该问题不大！
 ```
 
-##### 算法&数据结构
+## 3. 算法&数据结构
 
-|  序号 |  链接   |  备注  | 
+|  序号 | 网站 | 链接  | 
 | ---- | ---- | ---- | 
 | 1 | bigsai-algorithm: 总结的还不错 | [链接](https://github.com/javasmall/bigsai-algorithm) |
 | 2 | bigsai:主要是算法和数据结构 | [链接](https://segmentfault.com/u/bigsai) |
@@ -64,18 +62,18 @@
 ```
 
 
-##### 优质网站
+## 4. 优质网站
 
-|  序号 |  链接   |  备注  | 
+|  序号 | 网站 | 链接  | 
 | ---- | ---- | ---- | 
-| 1 | 电子书免费下载网站 | [链接](https://book4you.org)  [ 链接](https://zh.1lib.in/) | 
+| 1 | 电子书免费下载网站 | [链接1](https://book4you.org)  [ 链接2](https://zh.1lib.in/) | 
 | 2 | 极客时间： MySQL实战45讲+MySQL必知必会 | [链接](https://github.com/geekibli/mysql-study) | 
 | 3 | 递归可视化网站 | [链接](https://recursion.vercel.app/%E3%80%82) |
 
 
 
 ##### 其他面试题
-| 序号 | 链接 | 备注 |
+| 序号 | 网站 | 链接 |
 | ---- | ---- | ---- | 
 | 1 | 2022最新上千道Java面试题，看完你觉得通透不通透就完了 | [链接](https://www.nowcoder.com/discuss/833645?type=0&order=7&pos=4&page=1&source_id=discuss_center_0_nctrack&channel=1009&ncTraceId=c4065eb9ab5e4cd8b13a53bf9ea6b10d.237.16454123406972885&gio_id=4105B8FB76FAEC481E918BD93D0A0274-1645412340019) | 
 | 2 | Java程序员要达到什么水平才能社招进阿里 | [链接](https://www.nowcoder.com/discuss/841549?type=post&order=recall&pos=&page=0&ncTraceId=&channel=-1&source_id=search_post_nctrack&gio_id=4105B8FB76FAEC481E918BD93D0A0274-1645413966396) |
