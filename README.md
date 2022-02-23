@@ -37,13 +37,13 @@
 
 | 序号| 链接 | 备注 | 
 | ---- | ---- | ---- | 
-| 1 | https://github.com/CyC2018/CS-Notes | 相对其他较基础 |
-| 2 | https://github.com/Snailclimb/JavaGuide | 总结的不错，面试重点比较多|
-| 3 | http://hollischuang.gitee.io/tobetopjavaer/#/ | Java的东西比较多，剩余还未更新|
-| 4 | https://github.com/doocs/advanced-java  | **强烈推荐** 👍 |
-| 5 | https://github.com/donnemartin/system-design-primer | 系统设计综合 提供中英文文档 非常优秀 👍 |  
-| 6 | https://github.com/AobingJava/JavaFamily | 三太子敖丙 |
-| 7 | https://programmercarl.com/ | 代码随想录 这个🀄️ b站的视频讲的特别好👌 |
+| 1 | CS-Notes:相对其他较基础 | [链接](https://github.com/CyC2018/CS-Notes) |
+| 2 | JavaGuide: 总结的不错，面试重点比较多 | [链接](https://github.com/Snailclimb/JavaGuide) |
+| 3 | tobetopjavaer:Java的东西比较多，剩余还未更新 | [链接](http://hollischuang.gitee.io/tobetopjavaer/#/) |
+| 4 | **advanced-java强烈推荐** 👍 | [链接](https://github.com/doocs/advanced-java) |
+| 5 | 系统设计综合 提供中英文文档 非常优秀 👍 | [链接](https://github.com/donnemartin/system-design-primer) |  
+| 6 | GitHub:三太子敖丙 | [链接](https://github.com/AobingJava/JavaFamily) |
+| 7 | 代码随想录 这个🀄️ b站的视频讲的特别好👌 | [链接]https://programmercarl.com/() |
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
@@ -54,9 +54,9 @@
 
 |  序号 |  链接   |  备注  | 
 | ---- | ---- | ---- | 
-| 1 | https://github.com/javasmall/bigsai-algorithm | 总结的还不错 |
-| 2 | https://segmentfault.com/u/bigsai | 主要是算法和数据结构 |
-| 3 | https://www.geekxh.com | 小浩算法 网站看起来很舒服 java版  推荐👍| 
+| 1 | bigsai-algorithm: 总结的还不错 | [链接](https://github.com/javasmall/bigsai-algorithm) |
+| 2 | bigsai:主要是算法和数据结构 | [链接](https://segmentfault.com/u/bigsai) |
+| 3 | 小浩算法 网站看起来很舒服 java版  推荐👍 | [链接](https://www.geekxh.com) | 
 
 ```
 算法这一部分没有别的办法，只有刷题。 当然不能无脑刷题了。
@@ -68,9 +68,9 @@
 
 |  序号 |  链接   |  备注  | 
 | ---- | ---- | ---- | 
-| 1 | https://book4you.org 或 https://zh.1lib.in/| 电子书网站。(可能不稳定)  | 
-| 2 | https://github.com/geekibli/mysql-study | mysql实战45讲（极客时间）电子书  强烈推荐 干货满满 | 
-| 3 | https://recursion.vercel.app/%E3%80%82 | 递归可视化网站 |
+| 1 | 电子书免费下载网站 | [链接](https://book4you.org)  [ 链接](https://zh.1lib.in/) | 
+| 2 | 极客时间： MySQL实战45讲+MySQL必知必会 | [链接](https://github.com/geekibli/mysql-study) | 
+| 3 | 递归可视化网站 | [链接](https://recursion.vercel.app/%E3%80%82) |
 
 
 
