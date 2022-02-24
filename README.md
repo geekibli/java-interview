@@ -43,6 +43,7 @@
 | 5 | 系统设计综合 提供中英文文档 非常优秀 👍 | [链接](https://github.com/donnemartin/system-design-primer) |  
 | 6 | GitHub:三太子敖丙 | [链接](https://github.com/AobingJava/JavaFamily) |
 | 7 | 代码随想录 这个🀄️ b站的视频讲的特别好👌 | [链接](https://programmercarl.com/) |
+| 8 | kaito-kidd 后端基础架构 | [链接](http://kaito-kidd.com/);
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
@@ -70,6 +71,7 @@
 | 1 | 电子书免费下载网站 | [链接1](https://book4you.org)  [ 链接2](https://zh.1lib.in/) | 
 | 2 | 极客时间： MySQL实战45讲+MySQL必知必会 | [链接](https://github.com/geekibli/mysql-study) | 
 | 3 | 递归可视化网站 | [链接](https://recursion.vercel.app/%E3%80%82) |
+| 4 | MyBatis在线生成 | [链接](http://www.javacoder.top/) |
 
 
 
@@ -78,3 +80,4 @@
 | ---- | ---- | ---- | 
 | 1 | 2022最新上千道Java面试题，看完你觉得通透不通透就完了 | [链接](https://www.nowcoder.com/discuss/833645?type=0&order=7&pos=4&page=1&source_id=discuss_center_0_nctrack&channel=1009&ncTraceId=c4065eb9ab5e4cd8b13a53bf9ea6b10d.237.16454123406972885&gio_id=4105B8FB76FAEC481E918BD93D0A0274-1645412340019) | 
 | 2 | Java程序员要达到什么水平才能社招进阿里 | [链接](https://www.nowcoder.com/discuss/841549?type=post&order=recall&pos=&page=0&ncTraceId=&channel=-1&source_id=search_post_nctrack&gio_id=4105B8FB76FAEC481E918BD93D0A0274-1645413966396) |
+
