@@ -2,43 +2,44 @@
 
 1. [讲一下jvm的主要构成？ 运行时数据区 类加载 执行引擎](https://www.jianshu.com/p/70c7755151f7)
 2. [讲一下运行时数据区的几个部分？ 主要5种](https://blog.csdn.net/weixin_45151795/article/details/108458096)
-3. 什么是程序计数器？ 有什么特性？
-4. 什么是java虚拟机栈？
-5. 什么是栈桢？ 一个方法对应一个栈桢
-6. 栈桢有哪些组成部分 ？ 局部变量表 操作数栈 动态链接 方法出口 
-7. java虚拟机栈会有哪些异常？ OOM StackOverFlow
-8. 什么是本地方法栈？ 会产生哪些异常？
-9. 什么是堆？
-10. 堆内部有哪些分区？
-11. 为什么Eden和Servior分区的比例默认为8:1:1
-12. 什么是方法区（元空间） OOM
-13. [Java 垃圾回收机制（GC）简述](https://blog.csdn.net/liyifan687/article/details/80075189)
-14. [垃圾回收的优点和原理，并考虑2种回收机制](https://blog.csdn.net/will130/article/details/49681103)
-15. Full GC 发生在哪些区域？ 堆 方法区
-16. 什么是直接内存？ 堆外内存
-17. [为什么会有垃圾回收？](https://cloud.tencent.com/developer/article/1198886)
-18. 垃圾回收都回收哪些东西？
-19. [如何判断对象是垃圾？](https://blog.csdn.net/zx1293406/article/details/104535414)
-20. [引用计数算法弊端是什么？ 循环引用](https://blog.csdn.net/qq_42185762/article/details/115667911)
-21. [可达性分析是什么？](https://segmentfault.com/a/1190000021820577)
-22. [垃圾回收器的基本原理是什么？垃圾回收器可以马上回收内存吗？有什么办法主动通知虚拟机进行垃圾回收？](https://www.cnblogs.com/zhangxiaopeng/p/5001171.html)
-23. 什么可以作为GC ROOT?
-24. 类卸载有哪些条件？ 实例 类加载器 引用
-25. 什么是finalize方法？ finalize如何实现自救？
-26. finalize对象自救只能实现一次？ yes
-27. [java中 4中对象引用类型？ 以及区别 ？ 强软弱虚 ](https://www.cnblogs.com/frankcui/p/12492973.html)
-28. [常见的垃圾收集算法？](https://developer.aliyun.com/ask/274518)
-29. [什么是标记清除算法？ 有哪些缺点？ 效率低 碎片](https://www.cnblogs.com/xuwc/p/14054104.html)
-30. 标记复制算法是什么？ 有哪些缺点？ 内存利用率低
-31. **标记整理算法是什么？** 有哪些缺点？ 有哪些优势？
-32. [**什么是三色标记法？**](https://segmentfault.com/a/1190000021820577)
-33. 三色标记进行并发标记的时候，会产生哪些问题？
-34. [**什么场景下会“对象消失”?**](https://segmentfault.com/a/1190000021820577)
-35. [**并发标记如何解决对象消失的问题？**](https://segmentfault.com/a/1190000021820577)
-36. 讲一下分代收集算法？
-37. 讲一下常见的垃圾收集器？ 7种
-38. 年轻代的收集器有哪些？
-39. 老年代的垃圾收集器有哪些？
+3. [什么是程序计数器？ 有什么特性？](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-01.md#%E7%A8%8B%E5%BA%8F%E8%AE%A1%E6%95%B0%E5%99%A8%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%81%E6%9C%89%E7%9A%84)
+4. [程序计数器为什么是私有的? ](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-01.md#%E7%A8%8B%E5%BA%8F%E8%AE%A1%E6%95%B0%E5%99%A8%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%81%E6%9C%89%E7%9A%84)
+5. 什么是java虚拟机栈？
+6. 什么是栈桢？ 一个方法对应一个栈桢
+7. 栈桢有哪些组成部分 ？ 局部变量表 操作数栈 动态链接 方法出口 
+8. java虚拟机栈会有哪些异常？ OOM StackOverFlow
+9. 什么是本地方法栈？ 会产生哪些异常？
+10. 什么是堆？
+11. 堆内部有哪些分区？
+12. 为什么Eden和Servior分区的比例默认为8:1:1
+13. 什么是方法区（元空间） OOM
+14. [Java 垃圾回收机制（GC）简述](https://blog.csdn.net/liyifan687/article/details/80075189)
+15. [垃圾回收的优点和原理，并考虑2种回收机制](https://blog.csdn.net/will130/article/details/49681103)
+16. Full GC 发生在哪些区域？ 堆 方法区
+17. 什么是直接内存？ 堆外内存
+18. [为什么会有垃圾回收？](https://cloud.tencent.com/developer/article/1198886)
+19. 垃圾回收都回收哪些东西？
+20. [如何判断对象是垃圾？](https://blog.csdn.net/zx1293406/article/details/104535414)
+21. [引用计数算法弊端是什么？ 循环引用](https://blog.csdn.net/qq_42185762/article/details/115667911)
+22. [可达性分析是什么？](https://segmentfault.com/a/1190000021820577)
+23. [垃圾回收器的基本原理是什么？垃圾回收器可以马上回收内存吗？有什么办法主动通知虚拟机进行垃圾回收？](https://www.cnblogs.com/zhangxiaopeng/p/5001171.html)
+24. 什么可以作为GC ROOT?
+25. 类卸载有哪些条件？ 实例 类加载器 引用
+26. 什么是finalize方法？ finalize如何实现自救？
+27. finalize对象自救只能实现一次？ yes
+28. [java中 4中对象引用类型？ 以及区别 ？ 强软弱虚 ](https://www.cnblogs.com/frankcui/p/12492973.html)
+29. [常见的垃圾收集算法？](https://developer.aliyun.com/ask/274518)
+30. [什么是标记清除算法？ 有哪些缺点？ 效率低 碎片](https://www.cnblogs.com/xuwc/p/14054104.html)
+31. 标记复制算法是什么？ 有哪些缺点？ 内存利用率低
+32. **标记整理算法是什么？** 有哪些缺点？ 有哪些优势？
+33. [**什么是三色标记法？**](https://segmentfault.com/a/1190000021820577)
+34. 三色标记进行并发标记的时候，会产生哪些问题？
+35. [**什么场景下会“对象消失”?**](https://segmentfault.com/a/1190000021820577)
+36. [**并发标记如何解决对象消失的问题？**](https://segmentfault.com/a/1190000021820577)
+37. 讲一下分代收集算法？
+38. 讲一下常见的垃圾收集器？ 7种
+39. 年轻代的收集器有哪些？
+40. 老年代的垃圾收集器有哪些？
 40. 讲一下G1收集器？
 41. 什么是STW？为什么会有STW？
 42. 讲一下Serial收集器的缺点？ 单线程
