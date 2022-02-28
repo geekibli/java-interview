@@ -22,5 +22,5 @@
 9. [如何按照 query 的频度排序？](https://github.com/doocs/advanced-java/blob/main/docs/big-data/sort-the-query-strings-by-counts.md)
 10. [如何找出排名前 500 的数？](https://github.com/doocs/advanced-java/blob/main/docs/big-data/find-rank-top-500-numbers.md)
 11. [讲讲大数据中 TopK 问题的常用套路？](https://github.com/doocs/advanced-java/blob/main/docs/big-data/topk-problems-and-solutions.md)
-12. [设计一个敏感词过滤系统，有什么思路？](https://zhuanlan.zhihu.com/p/65115496)
+12. [设计一个敏感词过滤系统，有什么思路？](https://zhuanlan.zhihu.com/p/65115496) [链接1](https://github.com/Snailclimb/JavaGuide/blob/main/docs/system-design/security/sentive-words-filter.md)
 13.     

@@ -27,7 +27,8 @@
 18. 如何设计一个站内消息系统?
 19. 如何解决大文件上传的问题？
 20. 如何统计网站的UV？
-21. 
+21. [设计一个敏感词过滤系统，有什么思路？](https://zhuanlan.zhihu.com/p/65115496) [链接1](https://github.com/Snailclimb/JavaGuide/blob/main/docs/system-design/security/sentive-words-filter.md)
+22. 
    
 ### 💾 资料
 
