@@ -31,7 +31,6 @@
 
 
 
-
 ## 2. 优秀资料
 
 | 序号| 网站 | 链接 | 
@@ -43,7 +42,9 @@
 | 5 | 系统设计综合 提供中英文文档 非常优秀 👍 | [链接](https://github.com/donnemartin/system-design-primer) |  
 | 6 | GitHub:三太子敖丙 | [链接](https://github.com/AobingJava/JavaFamily) |
 | 7 | 代码随想录 这个🀄️ b站的视频讲的特别好👌 | [链接](https://programmercarl.com/) |
-| 8 | kaito-kidd 后端基础架构 | [链接](http://kaito-kidd.com/);
+| 8 | kaito-kidd 后端基础架构 | [链接](http://kaito-kidd.com/) |
+| 9 |  why神 | [链接](https://whywhy.vip/)  |
+
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的

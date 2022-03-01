@@ -55,6 +55,8 @@
 51. [Redis 的并发竞争问题是什么？如何解决这个问题？了解 Redis 事务的 CAS 方案吗？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/redis-cas.md)
 52. [生产环境中的 Redis 是怎么部署的？](https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/redis-production-environment.md)
 53. [redis如何实现分布式锁？](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md#redis-分布式锁)
+54. [**redis最佳实践  阿里云**](https://help.aliyun.com/document_detail/26365.html) 👍
+55. 
 
 
 ## redis资料💾

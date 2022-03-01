@@ -28,7 +28,9 @@
 19. 如何解决大文件上传的问题？
 20. 如何统计网站的UV？
 21. [设计一个敏感词过滤系统，有什么思路？](https://zhuanlan.zhihu.com/p/65115496) [链接1](https://github.com/Snailclimb/JavaGuide/blob/main/docs/system-design/security/sentive-words-filter.md)
-22. 
+22. [京东毫秒级热key探测框架设计与实践，已实战于618大促](https://mp.weixin.qq.com/s/xOzEj5HtCeh_ezHDPHw6Jw) [Gitee](https://gitee.com/jd-platform-opensource/hotkey#https://gitee.com/link?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FxOzEj5HtCeh_ezHDPHw6Jw)
+23. [如何设计一个并行框架](https://gitee.com/jd-platform-opensource/asyncTool)
+24. 
    
 ### 💾 资料
 
