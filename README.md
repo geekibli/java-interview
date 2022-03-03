@@ -63,6 +63,7 @@
 | 1 | 电子书免费下载网站 | [链接1](https://book4you.org)  [ 链接2](https://zh.1lib.in/) | 
 | 2 | 递归可视化网站 | [链接](https://recursion.vercel.app/%E3%80%82) |
 | 3 | MyBatis在线生成 | [链接](http://www.javacoder.top/) |
+| 4 | 精美mac软件下载 mac党的福音 | [链接](https://macwk.com/) | 
 
 
 ## 4. 技术团队
@@ -86,6 +87,7 @@
 |  序号 | 面经 | 链接  | 
 | ---- | ---- | ---- | 
 | 1 | 滴滴Java三面面经  | [链接](https://github.com/geekibli/java-interview/blob/main/mds/mianjing/%E6%BB%B4%E6%BB%B4%E4%B8%89%E9%9D%A2%E9%9D%A2%E7%BB%8F.md) |
+| 2 | 美团金融服务java后台研发3面技术面+HR面 | [链接](https://github.com/geekibli/java-interview/blob/main/mds/mianjing/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E7%BB%8F4%EF%BC%9A%E7%BE%8E%E5%9B%A2%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1java%E5%90%8E%E5%8F%B0%E7%A0%94%E5%8F%913%E9%9D%A2%E6%8A%80%E6%9C%AF%E9%9D%A2%2BHR%E9%9D%A2.md) | 
 
 
 ##### 其他面试题
