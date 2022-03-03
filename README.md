@@ -68,19 +68,14 @@
 
 ## 4. 技术团队
 
-|  序号 | 网站 | 链接  | 
-| ---- | ---- | ---- | 
-| 1 | 美团技术团队 | [链接](https://tech.meituan.com) | 
-| 2 | 有赞技术团队 | [链接](https://tech.youzan.com/) | 
-| 3 | 小米技术团队 | [链接](https://xiaomi-info.github.io) | 
-| 4 | 字节跳动技术团队 | [链接](https://juejin.cn/user/1838039172387262) | 
-| 5 |  美团点餐团队 | [链接](https://juejin.cn/user/4459274890642350) | 
-| 6 |  Shopee技术团队 | [链接](https://juejin.cn/user/4028250995577672/posts) | 
-| 7 | 猫眼技术团队 | [链接](https://juejin.cn/user/307518987830151/posts) | 
-| 8 | 有道技术团队 | [链接](https://segmentfault.com/u/youdaotec) | 
-| 9 | 好未来技术团队 | [链接](https://segmentfault.com/blog/tech-haoweilai) | 
-| 10 | 阿里本地生活 | [链接](https://juejin.cn/user/1890815729744151) | 
-| 11 | 闲鱼技术  | [链接](https://juejin.cn/user/1257497031878408) |
+|   |   |   |  |
+| ---- | ---- | ---- | ---- | 
+| [有赞技术团队](https://tech.youzan.com/) | [美团技术团队](https://tech.meituan.com) | [小米技术团队](https://xiaomi-info.github.io) | [字节跳动技术团队](https://juejin.cn/user/1838039172387262) |
+| [美团点餐团队](https://juejin.cn/user/4459274890642350) | [Shopee技术团队](https://juejin.cn/user/4028250995577672/posts) | [猫眼技术团队](https://juejin.cn/user/307518987830151/posts) | [有道技术团队](https://segmentfault.com/u/youdaotec) 
+| [好未来技术团队](https://segmentfault.com/blog/tech-haoweilai) |  [阿里本地生活](https://juejin.cn/user/1890815729744151) | [闲鱼技术](https://juejin.cn/user/1257497031878408) | 
+
+
+
 
 ## 5. 真实面经
 
