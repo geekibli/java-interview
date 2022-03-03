@@ -6,32 +6,33 @@
 **各个部分或章节的面试题汇总如下：** 
 
 
-| 序号 | 章节  | 链接 | 
+|  |   |  |  | | 
+| ---- | ---- | ---- | ---- | ---- |
+| [Java基础](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%9F%BA%E7%A1%80.md) | [Java容器](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%AE%B9%E5%99%A8.md)  | [Java多线程](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B.md) | [Java虚拟机](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md) | [Java IO](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%20IO.md) |
+| [MySQL](https://github.com/geekibli/java-interview/blob/main/mds/MySQL.md) | [Redis](https://github.com/geekibli/java-interview/blob/main/mds/Redis.md) | [Elasticsearch](https://github.com/geekibli/java-interview/blob/main/mds/Elasticsearch.md) | [Kafka](https://github.com/geekibli/java-interview/blob/main/mds/Message%20Queue.md) | [Spring](https://github.com/geekibli/java-interview/blob/main/mds/Spring.md) |
+|  Tomcat | [分布式](https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md) | [系统设计](https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md) | [操作系统&Linux](https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md) | [微服务](https://github.com/geekibli/java-interview/blob/main/mds/SOA.md) | [HTTP&HTTPS协议](https://github.com/geekibli/java-interview/blob/main/mds/ComputerNetwork/HTTP%26HTTPS.md) |
+| [TCP协议](https://github.com/geekibli/java-interview/blob/main/mds/ComputerNetwork/Transport.md) [TCP协议](https://easydoc.net/s/34302961/3knXVB3b/sMiplphJ) | [UDP协议](https://github.com/geekibli/java-interview/blob/main/mds/ComputerNetwork/Transport.md) | [设计模式](https://easydoc.net/s/73311283/97P4hHJf/L0e8AKR7) | [海量数据问题](https://github.com/geekibli/java-interview/blob/main/mds/Mass%20Data.md) | [Git](https://github.com/geekibli/java-interview/blob/main/mds/Git.md) |
+
+
+
+## 2. 技术团队
+**大厂or优秀的技术团队如下：**
+|   |   |   |  |
+| ---- | ---- | ---- | ---- | 
+| [有赞技术团队](https://tech.youzan.com/) | [美团技术团队](https://tech.meituan.com) | [小米技术团队](https://xiaomi-info.github.io) | [字节跳动技术团队](https://juejin.cn/user/1838039172387262) |
+| [美团点餐团队](https://juejin.cn/user/4459274890642350) | [Shopee技术团队](https://juejin.cn/user/4028250995577672/posts) | [猫眼技术团队](https://juejin.cn/user/307518987830151/posts) | [有道技术团队](https://segmentfault.com/u/youdaotec) 
+| [好未来技术团队](https://segmentfault.com/blog/tech-haoweilai) |  [阿里本地生活](https://juejin.cn/user/1890815729744151) | [闲鱼技术](https://juejin.cn/user/1257497031878408) | 
+
+
+## 3. 真实面经
+
+|  序号 | 面经 | 链接  | 
 | ---- | ---- | ---- | 
-| 1 |  Java基础 | [链接](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%9F%BA%E7%A1%80.md) | 
-| 2 |  Java容器 |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%AE%B9%E5%99%A8.md)  |
-| 3 |  Java多线程  | [链接](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B.md) |  
-| 4 |  Java虚拟机  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md) |
-| 5 |  Java IO  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%20IO.md) |
-| 6 |  MySQL  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/MySQL.md) |
-| 7 |  Redis  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Redis.md) |
-| 8 |  Elasticsearch  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Elasticsearch.md) |
-| 9 |  Kafka  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Message%20Queue.md) |
-| 10 |  Spring  |  [链接] |
-| 11 |  Tomcat  |  [链接] |
-| 12 |  分布式  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md) |
-| 13 |  系统设计  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md) |
-| 14 |  操作系统&Linux  |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md) |
-| 14 |  微服务 |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/SOA.md) |
-| 15 |   HTTP&HTTPS协议 |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/ComputerNetwork/HTTP%26HTTPS.md) |
-| 16 |   TCP协议 |  [链接1](https://github.com/geekibli/java-interview/blob/main/mds/ComputerNetwork/Transport.md) [链接2](https://easydoc.net/s/34302961/3knXVB3b/sMiplphJ) |
-| 17 |   UDP协议 |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/ComputerNetwork/Transport.md) |
-| 17 |   设计模式 |  [链接](https://easydoc.net/s/73311283/97P4hHJf/L0e8AKR7) |
-| 18 |   海量数据问题 |  [链接](https://github.com/geekibli/java-interview/blob/main/mds/Mass%20Data.md) |
+| 1 | 滴滴Java三面面经  | [链接](https://github.com/geekibli/java-interview/blob/main/mds/mianjing/%E6%BB%B4%E6%BB%B4%E4%B8%89%E9%9D%A2%E9%9D%A2%E7%BB%8F.md) |
+| 2 | 美团金融服务java后台研发3面技术面+HR面 | [链接](https://github.com/geekibli/java-interview/blob/main/mds/mianjing/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E7%BB%8F4%EF%BC%9A%E7%BE%8E%E5%9B%A2%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1java%E5%90%8E%E5%8F%B0%E7%A0%94%E5%8F%913%E9%9D%A2%E6%8A%80%E6%9C%AF%E9%9D%A2%2BHR%E9%9D%A2.md) | 
 
 
-
-## 2. 优秀资料
+## 4. 优秀资料
 
 | 序号| 网站 | 链接 | 
 | ---- | ---- | ---- | 
@@ -56,7 +57,7 @@
 ```
 
 
-## 3. 开发必备网站
+## 5. 开发必备网站
 
 |  序号 | 网站 | 链接  | 
 | ---- | ---- | ---- | 
@@ -66,26 +67,7 @@
 | 4 | 精美mac软件下载 mac党的福音 | [链接](https://macwk.com/) | 
 
 
-## 4. 技术团队
-
-|   |   |   |  |
-| ---- | ---- | ---- | ---- | 
-| [有赞技术团队](https://tech.youzan.com/) | [美团技术团队](https://tech.meituan.com) | [小米技术团队](https://xiaomi-info.github.io) | [字节跳动技术团队](https://juejin.cn/user/1838039172387262) |
-| [美团点餐团队](https://juejin.cn/user/4459274890642350) | [Shopee技术团队](https://juejin.cn/user/4028250995577672/posts) | [猫眼技术团队](https://juejin.cn/user/307518987830151/posts) | [有道技术团队](https://segmentfault.com/u/youdaotec) 
-| [好未来技术团队](https://segmentfault.com/blog/tech-haoweilai) |  [阿里本地生活](https://juejin.cn/user/1890815729744151) | [闲鱼技术](https://juejin.cn/user/1257497031878408) | 
-
-
-
-
-## 5. 真实面经
-
-|  序号 | 面经 | 链接  | 
-| ---- | ---- | ---- | 
-| 1 | 滴滴Java三面面经  | [链接](https://github.com/geekibli/java-interview/blob/main/mds/mianjing/%E6%BB%B4%E6%BB%B4%E4%B8%89%E9%9D%A2%E9%9D%A2%E7%BB%8F.md) |
-| 2 | 美团金融服务java后台研发3面技术面+HR面 | [链接](https://github.com/geekibli/java-interview/blob/main/mds/mianjing/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E7%BB%8F4%EF%BC%9A%E7%BE%8E%E5%9B%A2%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1java%E5%90%8E%E5%8F%B0%E7%A0%94%E5%8F%913%E9%9D%A2%E6%8A%80%E6%9C%AF%E9%9D%A2%2BHR%E9%9D%A2.md) | 
-
-
-##### 其他面试题
+## 6. 其它
 | 序号 | 网站 | 链接 |
 | ---- | ---- | ---- | 
 | 1 | 2022最新上千道Java面试题，看完你觉得通透不通透就完了 | [链接](https://www.nowcoder.com/discuss/833645?type=0&order=7&pos=4&page=1&source_id=discuss_center_0_nctrack&channel=1009&ncTraceId=c4065eb9ab5e4cd8b13a53bf9ea6b10d.237.16454123406972885&gio_id=4105B8FB76FAEC481E918BD93D0A0274-1645412340019) | 
