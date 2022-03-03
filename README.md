@@ -46,7 +46,6 @@
 
 
 
-
 ## 2. 技术团队
 **大厂or优秀的技术团队如下：**
 <table class="table table-bordered table-striped table-condensed">
@@ -86,23 +85,17 @@
 | 1 | CS-Notes:相对其他较基础 | [链接](https://github.com/CyC2018/CS-Notes) |
 | 2 | JavaGuide: 总结的不错，面试重点比较多 | [链接](https://github.com/Snailclimb/JavaGuide) |
 | 3 | tobetopjavaer:Java的东西比较多，剩余还未更新 | [链接](http://hollischuang.gitee.io/tobetopjavaer/#/) |
-| 4 | **advanced-java强烈推荐** 👍 | [链接](https://github.com/doocs/advanced-java) |
-| 5 | 系统设计综合 提供中英文文档 非常优秀 👍 | [链接](https://github.com/donnemartin/system-design-primer) |  
+| 4 | advanced-java强烈推荐* | [链接](https://github.com/doocs/advanced-java) |
+| 5 | 系统设计综合 提供中英文文档 | [链接](https://github.com/donnemartin/system-design-primer) |  
 | 6 | GitHub:三太子敖丙 | [链接](https://github.com/AobingJava/JavaFamily) |
-| 7 | 代码随想录 这个🀄️ b站的视频讲的特别好👌 | [链接](https://programmercarl.com/) |
+| 7 | 代码随想录 | [链接](https://programmercarl.com/) |
 | 8 | kaito-kidd 后端基础架构 | [链接](http://kaito-kidd.com/) |
 | 9 |  why神 | [链接](https://whywhy.vip/)  |
 | 10 | bigsai-algorithm: 总结的还不错 | [链接](https://github.com/javasmall/bigsai-algorithm) |
 | 11 | bigsai:主要是算法和数据结构 | [链接](https://segmentfault.com/u/bigsai) |
 | 12 | 小浩算法 网站看起来很舒服 java版 | [链接](https://www.geekxh.com) | 
 | 13 | 极客时间： MySQL实战45讲+MySQL必知必会 | [链接](https://github.com/geekibli/mysql-study) | 
-
-```
-下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
-根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
-题目，去检验一遍自己的成果。多尝试几次，相信对付面试应该问题不大！
-```
-
+| 14 | 架构师 尼恩 | [链接](https://blog.csdn.net/crazymakercircle/) | 
 
 ## 5. 开发必备网站
 
@@ -112,6 +105,7 @@
 | 2 | 递归可视化网站 | [链接](https://recursion.vercel.app/%E3%80%82) |
 | 3 | MyBatis在线生成 | [链接](http://www.javacoder.top/) |
 | 4 | 精美mac软件下载 mac党的福音 | [链接](https://macwk.com/) | 
+| 5 | user agent集合 | [链接](http://www.useragentstring.com) | 
 
 
 ## 6. 其它
