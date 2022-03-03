@@ -5,8 +5,6 @@
 ## 1. 题目
 **各个部分或章节的面试题汇总如下：** 
 
-
-|  |   |  |  | | 
 | ---- | ---- | ---- | ---- | ---- |
 | [Java基础](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%9F%BA%E7%A1%80.md) | [Java容器](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%AE%B9%E5%99%A8.md)  | [Java多线程](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B.md) | [Java虚拟机](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md) | [Java IO](https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%20IO.md) |
 | [MySQL](https://github.com/geekibli/java-interview/blob/main/mds/MySQL.md) | [Redis](https://github.com/geekibli/java-interview/blob/main/mds/Redis.md) | [Elasticsearch](https://github.com/geekibli/java-interview/blob/main/mds/Elasticsearch.md) | [Kafka](https://github.com/geekibli/java-interview/blob/main/mds/Message%20Queue.md) | [Spring](https://github.com/geekibli/java-interview/blob/main/mds/Spring.md) |
