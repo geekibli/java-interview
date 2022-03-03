@@ -115,6 +115,8 @@
 112. [能不能给我简单介绍一下 AtomicInteger 类的原理](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#51-%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B-atomic-%E5%8E%9F%E5%AD%90%E7%B1%BB)
 113. [CompletableFuture是什么，如何实现的](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/completablefuture-intro.md)
 114. [Java 常见并发容器总结](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-collections.md)
+115. [1000 多个并发线程，10 台机器，每台机器 4 核，如何设计线程池大小?](https://whywhy.vip/archives/148)
+116. [面试官问我：什么是高并发下的请求合并？](https://mp.weixin.qq.com/s?__biz=Mzg3NjU3NTkwMQ==&mid=2247505190&idx=1&sn=b1b3251fec254ec758af3a8ab05ce9f4&chksm=cf32b8d4f84531c2ba67af98333cd44bb53672f4359f09ae5bee1f2227a9ce56d525dd88d258&token=1947525029&lang=zh_CN#rd)
 
 
 ## 并发资料

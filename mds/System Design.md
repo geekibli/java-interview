@@ -21,7 +21,7 @@
 12. [**zookeeper 都有哪些使用场景？**](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/zookeeper-application-scenarios.md)
 13. [分布式事务了解吗？ 有哪些解决方案？]()  // TODO
 14. [设计一个高并发发红包系统？](https://github.com/xbox1994/Java-Interview/blob/master/MD/系统设计-高并发抢红包.md)
-15. [设计一个秒杀系统？](https://github.com/qiurunze123/miaosha)
+15. [设计一个秒杀系统？](https://github.com/qiurunze123/miaosha) [why神](https://mp.weixin.qq.com/s?__biz=Mzg3NjU3NTkwMQ==&mid=2247520243&idx=1&sn=270f0f6f5981fb1ad73f35b706d744b2&chksm=cf32e201f8456b17850060db61e9480487453d08ec8a886a51d10b006bfb0f918ce99145ec05#rd)
 16. 设计一个微博feed流/信息流系统?
 17. 如何设计一个短链系统?
 18. 如何设计一个站内消息系统?

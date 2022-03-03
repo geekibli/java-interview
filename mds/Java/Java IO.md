@@ -26,6 +26,7 @@
 23. NIO用到的设计模式？ 监视器模式
 24. 什么是零拷贝？
 25. 零拷贝的实现方式有哪些？ mmap 和 send file
+26. [懵了，阿里面试官叫我讲讲mmap？](https://mp.weixin.qq.com/s?__biz=Mzg3NjU3NTkwMQ==&mid=2247508062&idx=1&sn=f4a5d6f8b302a6f69a1635ea5ea8bc48&chksm=cf32cdacf84544bafa4b702b2edc1e9330e5a587e3ad434cf0587ca5a3a6d28def5b0bcdef98#rd)
 
 
 

@@ -48,7 +48,7 @@
 | 11 | bigsai:主要是算法和数据结构 | [链接](https://segmentfault.com/u/bigsai) |
 | 12 | 小浩算法 网站看起来很舒服 java版 | [链接](https://www.geekxh.com) | 
 | 13 | 极客时间： MySQL实战45讲+MySQL必知必会 | [链接](https://github.com/geekibli/mysql-study) | 
-
+| 24 |  一角钱技术 | [链接](https://juejin.cn/user/307518986264109) | 
 ```
 下面是一些关于Java相关的资料类的好项目，推荐给大家。各有特点吧，都非常不错。
 根据下面这些项目，可以系统的用一个月的时间去学习总结，之后按照我上面汇总的
