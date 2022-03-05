@@ -24,7 +24,7 @@
         <td>Tomcat</td>
         <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md">分布式</></td>
         <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/System%20Design.md">系统设计</></td>
-        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md">操作系统&Linux</></td>
+        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Computer%20OS.md">操作系统&Linux</></td>·
         <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/SOA.md">微服务</></td>
     </tr>
     <tr>
