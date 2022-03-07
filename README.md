@@ -9,9 +9,9 @@
     <tr>
         <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%9F%BA%E7%A1%80.md">Java基础</></td>
         <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%AE%B9%E5%99%A8.md">Java容器</></td>
-        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B.md">Java虚拟机</></td>
-        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md">Java IO</></td>
-        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%20IO.md">Java并发</></td>
+        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md">Java虚拟机</></td>
+        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%20IO.md">Java IO</></td>
+        <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/Java/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B.md">Java并发</></td>
     </tr>
     <tr>
         <td><a href="https://github.com/geekibli/java-interview/blob/main/mds/MySQL.md">MySQL</></td>
