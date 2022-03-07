@@ -100,23 +100,32 @@
 97. [什么是ThreadLocal？ ThreadLocal如何实现？](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#3-threadlocal)
 98. [ThreadLocal的内存泄露问题?](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#34-threadlocal-%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%E9%97%AE%E9%A2%98)
 99. [threadlocal在项目中的实战场景](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/threadlocal.md#threadlocal%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%AE%9E%E6%88%98)
-100. jvm对synchronized的锁优化都有哪些？
-101. 说一下什么是锁膨胀
-102. 什么是锁消除？ 逃逸分析 局部变量 
-103. 什么是逃逸分析？ 可以做什么？
-104. synchronized锁标志是如何存储的？ 对象头markword   LockRecord
-105. 锁对象hashCode在各种状态下都存放在那里？
-106. 偏向锁的使用场景？ 只有一个线程竞争锁
-107. 偏向锁是如何获取的？ 直接判断线程不需要cas
-108. 多线程开发的注意点有哪些？
-109. [什么是死锁，如何避免死锁](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-01.md#%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%BF%E7%A8%8B%E6%AD%BB%E9%94%81%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%AD%BB%E9%94%81)
-110. 死锁产生的条件
-111. [JUC下有哪些Atomic原子类](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#51-%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B-atomic-%E5%8E%9F%E5%AD%90%E7%B1%BB) [javaguide](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/atomic-classes.md)
-112. [能不能给我简单介绍一下 AtomicInteger 类的原理](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#51-%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B-atomic-%E5%8E%9F%E5%AD%90%E7%B1%BB)
-113. [CompletableFuture是什么，如何实现的](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/completablefuture-intro.md)
-114. [Java 常见并发容器总结](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-collections.md)
-115. [1000 多个并发线程，10 台机器，每台机器 4 核，如何设计线程池大小?](https://whywhy.vip/archives/148)
-116. [面试官问我：什么是高并发下的请求合并？](https://mp.weixin.qq.com/s?__biz=Mzg3NjU3NTkwMQ==&mid=2247505190&idx=1&sn=b1b3251fec254ec758af3a8ab05ce9f4&chksm=cf32b8d4f84531c2ba67af98333cd44bb53672f4359f09ae5bee1f2227a9ce56d525dd88d258&token=1947525029&lang=zh_CN#rd)
+100. threadlocal的作用： 1、线程隔离 2、跨方法参数传递，比如session
+101. threadlocal变量为什么需要使用`private static final `   来修饰？ 
+102. threadlocal在jdk1.7 和 jdk1.8 的结构上有什么不同?  `1.7是一个threadlocal变量对应一个<thread, val>的map ， jdk1.8之后是一个thread下有一个 <threadlocal, val>的map`
+103. jvm对synchronized的锁优化都有哪些？
+104. 说一下什么是锁膨胀
+105. 什么是锁消除？ 逃逸分析 局部变量 
+106. 什么是逃逸分析？ 可以做什么？
+107. synchronized锁标志是如何存储的？ 对象头markword   LockRecord
+108. 锁对象hashCode在各种状态下都存放在那里？
+109. 偏向锁的使用场景？ 只有一个线程竞争锁
+110. 偏向锁是如何获取的？ 直接判断线程不需要cas
+111. 多线程开发的注意点有哪些？
+112. [什么是死锁，如何避免死锁](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-01.md#%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%BF%E7%A8%8B%E6%AD%BB%E9%94%81%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%AD%BB%E9%94%81)
+113. 死锁产生的条件
+114. [JUC下有哪些Atomic原子类](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#51-%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B-atomic-%E5%8E%9F%E5%AD%90%E7%B1%BB) [javaguide](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/atomic-classes.md)
+115. [能不能给我简单介绍一下 AtomicInteger 类的原理](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-questions-02.md#51-%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B-atomic-%E5%8E%9F%E5%AD%90%E7%B1%BB)
+116. [CompletableFuture是什么，如何实现的](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/completablefuture-intro.md)
+117. [Java 常见并发容器总结](https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/concurrent/java-concurrent-collections.md)
+118. [1000 多个并发线程，10 台机器，每台机器 4 核，如何设计线程池大小?](https://whywhy.vip/archives/148)
+119. [面试官问我：什么是高并发下的请求合并？](https://mp.weixin.qq.com/s?__biz=Mzg3NjU3NTkwMQ==&mid=2247505190&idx=1&sn=b1b3251fec254ec758af3a8ab05ce9f4&chksm=cf32b8d4f84531c2ba67af98333cd44bb53672f4359f09ae5bee1f2227a9ce56d525dd88d258&token=1947525029&lang=zh_CN#rd)
+120. [如何设置线程的优先级](https://blog.csdn.net/qq_35400008/article/details/80219947)
+121. [什么情况下线程池会执行拒绝策略](https://www.cnblogs.com/javastack/p/12786848.html) 线程池关闭的时候也会执行拒绝策略，isShutDown()
+122. [Executors 可缓冲线程池有什么缺点](https://blog.csdn.net/wenniuwuren/article/details/51700080?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight)
+123. [newScheduledThreadPool线程池有什么缺点]() : 当同时提交大量任务时，会造成任务在队列中堆积，甚至产生OOM,并不是说创建无限的线程
+124. 线程工厂的作用是什么？ 设置一些线程参数，daemon 或者线程名称之类的
+125. 
 
 
 ## 并发资料
